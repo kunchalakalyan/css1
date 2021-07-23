@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>table styles</title>
+        <style>
+            #table1{
+                background-color: #003399;
+                font-size: 40px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #table1 tr{
+                background-color: chartreuse;
+            }
+            #table1 tr:nth-child(1){
+                background-color: #ff0099;
+            }
+            #table1 tr td{
+                padding: 10px;
+            }
+            #table1 tr th{
+                padding: 20px;
+                
+            }
+           
+            .menubar{
+                background-color: #0fc;
+                height: 40px;
+                width: 800px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: auto;
+            }
+            .menubar ul{
+                list-style-type: none;
+                padding: 0%;
+            }
+            .menubar ul li{
+                display: inline;
+                width: 200px;
+                float: left;
+                height: 40px;
+                text-align:center;
+            }
+            .menubar ul li a{
+                line-height: 40px;
+                text-decoration: none;
+            }
+            .menubar ul li:hover{
+                background-color: #33cc99;
+                cursor: pointer;
+                text-decoration: underline;
+                transition: width 0.5s;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table id="table1">
+            <tr>
+                <th>name</th><th>email</th>
+            </tr>
+            <tr>
+                <td>kalyan</td><td>0gmail</td>
+            </tr>
+            <tr>
+                <td>krishna</td><td>1gmail</td>
+            </tr>
+
+        </table>
+        
+        
+            
+                <div class="menubar">
+                    <ul>
+                        <li><a href="#">HOME</a>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">SHOP</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+    </body>
+</html>

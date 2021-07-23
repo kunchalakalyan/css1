@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 20px 'tahoma';
+    text-align: center;
+}
+#outercontainer{
+    background-color: #00ffcc;
+    width: 100%;
+    margin: auto;
+}
+#header{
+    background-color: #cc0077;
+    width: 100%;
+    height: 200px;
+}
+#nav{
+    background-color: #77ccff;
+    height: 80px;
+    width: 100%;
+}#container{
+    height: 500px;
+    width: 100%;
+}
+#leftcol{
+    background-color: #119988;
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+#pagecontent{
+    background-color: #11991c;
+    width: 70%;
+    height: 500px;
+    float: left;
+}
+#footer{
+    height: 50px;
+    background-color: #988998;
+    width: 100%;
+    clear: left;
+}

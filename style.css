@@ -1,0 +1,51 @@
+#div1{
+    background-color: #00ffcc;
+    width: 300px;
+    height: 300px;
+    border-style:solid;
+    border-width:1px; 
+    borde-color:red;
+    border-radius: 30px;
+    text-align: right;
+    padding: 30px;
+    margin-top: 300px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    line-height: 40px;
+    text-decoration: overline;
+    text-indent: 50px;
+    color: red;
+    border-top;pink 10px;
+    border-left:10px darkgreen;
+    display: inline-block;
+    visibility: inherit;
+    cursor: pointer;
+    z-index: auto;
+    opacity: 1;
+    text-align: justify;
+    overflow: visible;
+    
+}
+#div1:hover{
+    background-color: blueviolet;
+}
+#div2{
+    background-color: #00cc;
+    width: 300px;
+    height: 300px;
+    border-style:double;
+    border-width:1px; 
+    borde-color:red;
+}
+#div3{
+    background-color: #0f6;
+    width: 300px;
+    height: 300px;
+    border-style:groove;
+    border-width:1px; 
+    borde-color:red;
+}

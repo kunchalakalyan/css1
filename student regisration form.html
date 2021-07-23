@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>registration form</title>
+        <style>
+            body
+            {
+                background: #dbfaf4;
+            }
+            div
+            {
+                width: 90%;
+                margin: auto;
+                background: #cecaca;
+                margin-top: 50px;
+                padding: 5px
+                
+            }
+            form{
+                padding: 10px;
+                font-family: Arial;
+                border:2px dotted black;
+            }
+            h1,h4{
+                text-align: center;
+                background: orange;
+                color: white;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            input
+            {
+                padding: 10px;
+                margin: 5px;
+                border-radius: 5px;
+                border: none;
+            }
+            
+                
+            select{
+                padding: 10px;
+                width: 15%;
+                border-radius: 5px;
+            }
+            textarea{
+                padding: 10px;
+                width:90%;
+                border-radius: 5px;
+            }
+            input
+            {
+                padding: 10px;
+                width: 50%;  
+                border-radius: 5px;
+            }
+            input[type=submit]{
+                padding: 30px;
+                width: 30%;
+                background:green;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                border-radius: 10px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="div">
+        <h1>registration form</h1>
+        <h4>fill out the form carefully for registration</h4>
+        <form >
+            <div class="div"><label>Student name</label><br>
+            <input type="text"name="first name"placeholder="first name"><input type="text"name="middle name"placeholder="middle name"><input type="text"name="last name"placeholder="last name"></div>
+            <div class="div"><label>Date of birth</label><br>
+                 <select name="date of birth"> 
+                     <option>month</option>
+                <option value="january">january</option>
+                <option value="february">february</option>
+                </select>
+                <select name="date of birth"> 
+                    <option>date</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                    <select name="date of birth">
+                         <option>year</option>
+                        <option value="2000">2000</option>
+                        <option value="2021">2021</option>
+                    </select><br>
+                    <label>Gender</label><br>
+                    <select name="gender">
+                        
+                        <option>select</option>
+                        <option value="male">male</option>
+                        <option value="female">female</option></select>
+            </div>
+            <div> 
+                <label>Adress</label><br>
+            <textarea rows="1"></textarea>
+            </div>
+            <div>
+                <label>Street adress</label><br>
+            <textarea rows="1"></textarea>
+            </div>
+            <div>
+                <label> Street adress line 2</label><br>
+            <textarea rows="1"></textarea>
+            </div>
+            <div>
+                <label> city </label><br>
+                <textarea rows="1"></textarea>
+            </div>
+            <div>
+                <label>Email</label><br>
+                <input type="email"name="email"placeholder="enter your email">
+            </div>
+            <div>
+                <label>Mobile number</label><br>
+               
+                <input type="text" value="+91" size="2"/>
+				<input type="number"placeholder="enter your mobile number" size="10"/>
+            </div>
+            <div class="div3">
+                <label>Courses</label>
+                <select>
+                    <option>select</option>
+                <option>b tech</option>
+                    <option value="b com">b com</option>
+                    <option value="b phormacy">b phormacy</option>
+                    </select>
+            </div>
+            <div class="div">
+                <label> Additional comments </label><br>
+                <textarea rows="10"cols="30"></textarea>
+            </div>
+             <input type="Submit"value="Submit now">
+           
+        </form>
+    </div>
+    </body>
+</html>

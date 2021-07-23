@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>responsive web page</title>
+    </head>
+    
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .div1{
+            background-color: aqua;
+            height: 50px;
+        }
+        .div2{
+            background-color: rgb(0, 4, 255);
+            height: 50px;
+        }
+        .div3{
+            background-color: rgb(72, 255, 0);
+            height: 50px;
+        }
+        .div4{
+            background-color: rgb(194, 28, 50);
+            height: 50px;
+        }
+        .div5{
+            background-color: rgb(154, 204, 18);
+            height: 50px;
+        }
+        .div6{
+            background-color: rgb(201, 11, 160);
+            height: 50px;
+        }
+        @media(min-width:576px) and (max-width:767px){
+            .div1{
+                width: 50%;
+                float: left;
+            }
+            .div2{
+                width: 50%;
+                float: left;
+                clear: left;
+            }
+            .div3{
+                width: 50%;
+                float: left;
+            }
+            .di4{
+                width: 50%;
+                float: left;
+            }
+            .div5{
+                width: 50%;
+                float: left;
+                clear: left;
+            }
+            .div6{
+                width: 50%;
+                float: left;
+            }
+        }
+        @media(min-width:100px) and (max-width:575px){
+            .div1{
+                width: 50%;
+                float: left;
+            }
+            .div2{
+                width: 50%;
+                float: left;
+            }
+            .div3{
+                width: 100%;
+                float: left;
+            }
+            .di4{
+                width: 100%;
+                
+            }
+            .div5{
+                width: 100%;
+                
+            }
+            .div6{
+                width: 100%;
+                
+            }
+        }
+        @media(min-width:768px) and (max-width:991px){
+            .div1{
+                width: 33%;
+                float: left;
+            }
+            .div2{
+                width: 33%;
+                float: left;
+                
+            }
+            .div3{
+                width: 34%;
+                float: left;
+            }
+            .di4{
+                width: 33%;
+                float: left;
+                clear: left;
+            }
+            .div5{
+                width: 33%;
+                float: left;
+                
+            }
+            .div6{
+                width: 34%;
+                float: left;
+            }
+        }
+        @media(min-width:1199px){
+            .div1{
+                width: 17%;
+                float: left;
+            }
+            .div2{
+                width: 17%;
+                float: left;
+            }
+            .div3{
+                width: 17%;
+                float: left;
+            }
+            .di4{
+                width: 17%;
+                float: left;
+            }
+            .div5{
+                width: 13%;
+                float: left;
+            }
+            .div6{
+                width: 13%;
+                float: left;
+            }
+        }
+        
+    </style>
+    <body>
+        <div class="container">
+            <div class="div1">
+                div1
+            </div>
+             <div class="div2">
+                div2
+            </div>
+            <div class="div3">
+                div3
+            </div>
+            <div class="div4">
+                div4
+            </div>
+            <div class="div5">
+                div5
+            </div>
+            <div class="div6">
+                div6
+           </div>
+        </div>
+    </body>
+</html>
